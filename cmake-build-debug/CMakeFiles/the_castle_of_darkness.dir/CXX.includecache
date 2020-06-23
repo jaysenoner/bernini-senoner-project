@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/Game.cpp
+Game.h
+/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/Game.h
+
+/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/Game.h
+SFML/Graphics.hpp
+-
+
