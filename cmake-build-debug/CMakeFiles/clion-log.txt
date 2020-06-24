@@ -1,5 +1,23 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness
 -- Found SFML 2.5.1 in /Library/Frameworks/SFML.framework/Resources/CMake
+-- Found PythonInterp: /usr/bin/python (found version "2.7.10") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
 -- Configuring done
--- Generating done
--- Build files have been written to: /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug
+CMake Error at Google_tests/CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    test1.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at Google_tests/CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: Google_Tests_run
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
