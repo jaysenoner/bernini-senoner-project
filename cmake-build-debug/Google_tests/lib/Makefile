@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness
+CMAKE_SOURCE_DIR = /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/Google_tests/lib/CMakeFiles/progress.marks
-	cd /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_tests/lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles 0
+	cd /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/Google_tests/lib/CMakeFiles/progress.marks
+	cd /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_tests/lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_tests/lib/clean
+	cd /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_tests/lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,17 +143,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_tests/lib/preinstall
+	cd /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_tests/lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_tests/lib/preinstall
+	cd /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Google_tests/lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -179,6 +179,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

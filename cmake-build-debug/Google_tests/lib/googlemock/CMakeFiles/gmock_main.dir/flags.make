@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/Ma
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include -isystem /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/Google_tests/lib/googlemock/include -isystem /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/Google_tests/lib/googlemock -isystem /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/Google_tests/lib/googletest/include -isystem /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/Google_tests/lib/googletest 
+CXX_INCLUDES = -I/usr/local/include -isystem /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Google_tests/lib/googlemock/include -isystem /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Google_tests/lib/googlemock -isystem /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Google_tests/lib/googletest/include -isystem /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Google_tests/lib/googletest 
 

@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness
+CMAKE_SOURCE_DIR = /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/the_castle_of_darkness.dir/depend.make
@@ -59,40 +59,55 @@ include CMakeFiles/the_castle_of_darkness.dir/flags.make
 
 CMakeFiles/the_castle_of_darkness.dir/main.cpp.o: CMakeFiles/the_castle_of_darkness.dir/flags.make
 CMakeFiles/the_castle_of_darkness.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/the_castle_of_darkness.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/the_castle_of_darkness.dir/main.cpp.o -c /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/the_castle_of_darkness.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/the_castle_of_darkness.dir/main.cpp.o -c /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/main.cpp
 
 CMakeFiles/the_castle_of_darkness.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/the_castle_of_darkness.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/main.cpp > CMakeFiles/the_castle_of_darkness.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/main.cpp > CMakeFiles/the_castle_of_darkness.dir/main.cpp.i
 
 CMakeFiles/the_castle_of_darkness.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/the_castle_of_darkness.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/main.cpp -o CMakeFiles/the_castle_of_darkness.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/main.cpp -o CMakeFiles/the_castle_of_darkness.dir/main.cpp.s
 
 CMakeFiles/the_castle_of_darkness.dir/Game.cpp.o: CMakeFiles/the_castle_of_darkness.dir/flags.make
 CMakeFiles/the_castle_of_darkness.dir/Game.cpp.o: ../Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/the_castle_of_darkness.dir/Game.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/the_castle_of_darkness.dir/Game.cpp.o -c /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/the_castle_of_darkness.dir/Game.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/the_castle_of_darkness.dir/Game.cpp.o -c /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Game.cpp
 
 CMakeFiles/the_castle_of_darkness.dir/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/the_castle_of_darkness.dir/Game.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/Game.cpp > CMakeFiles/the_castle_of_darkness.dir/Game.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Game.cpp > CMakeFiles/the_castle_of_darkness.dir/Game.cpp.i
 
 CMakeFiles/the_castle_of_darkness.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/the_castle_of_darkness.dir/Game.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/Game.cpp -o CMakeFiles/the_castle_of_darkness.dir/Game.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Game.cpp -o CMakeFiles/the_castle_of_darkness.dir/Game.cpp.s
+
+CMakeFiles/the_castle_of_darkness.dir/Player.cpp.o: CMakeFiles/the_castle_of_darkness.dir/flags.make
+CMakeFiles/the_castle_of_darkness.dir/Player.cpp.o: ../Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/the_castle_of_darkness.dir/Player.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/the_castle_of_darkness.dir/Player.cpp.o -c /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Player.cpp
+
+CMakeFiles/the_castle_of_darkness.dir/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/the_castle_of_darkness.dir/Player.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Player.cpp > CMakeFiles/the_castle_of_darkness.dir/Player.cpp.i
+
+CMakeFiles/the_castle_of_darkness.dir/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/the_castle_of_darkness.dir/Player.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Player.cpp -o CMakeFiles/the_castle_of_darkness.dir/Player.cpp.s
 
 # Object files for target the_castle_of_darkness
 the_castle_of_darkness_OBJECTS = \
 "CMakeFiles/the_castle_of_darkness.dir/main.cpp.o" \
-"CMakeFiles/the_castle_of_darkness.dir/Game.cpp.o"
+"CMakeFiles/the_castle_of_darkness.dir/Game.cpp.o" \
+"CMakeFiles/the_castle_of_darkness.dir/Player.cpp.o"
 
 # External object files for target the_castle_of_darkness
 the_castle_of_darkness_EXTERNAL_OBJECTS =
 
 the_castle_of_darkness: CMakeFiles/the_castle_of_darkness.dir/main.cpp.o
 the_castle_of_darkness: CMakeFiles/the_castle_of_darkness.dir/Game.cpp.o
+the_castle_of_darkness: CMakeFiles/the_castle_of_darkness.dir/Player.cpp.o
 the_castle_of_darkness: CMakeFiles/the_castle_of_darkness.dir/build.make
 the_castle_of_darkness: /Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics
 the_castle_of_darkness: /Library/Frameworks/./sfml-audio.framework/Versions/2.5.1/sfml-audio
@@ -100,7 +115,7 @@ the_castle_of_darkness: /Library/Frameworks/./sfml-network.framework/Versions/2.
 the_castle_of_darkness: /Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window
 the_castle_of_darkness: /Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system
 the_castle_of_darkness: CMakeFiles/the_castle_of_darkness.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable the_castle_of_darkness"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable the_castle_of_darkness"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/the_castle_of_darkness.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +128,6 @@ CMakeFiles/the_castle_of_darkness.dir/clean:
 .PHONY : CMakeFiles/the_castle_of_darkness.dir/clean
 
 CMakeFiles/the_castle_of_darkness.dir/depend:
-	cd /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles/the_castle_of_darkness.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles/the_castle_of_darkness.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/the_castle_of_darkness.dir/depend
 

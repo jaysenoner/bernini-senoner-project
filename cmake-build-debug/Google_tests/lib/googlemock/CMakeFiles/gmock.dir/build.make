@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness
+CMAKE_SOURCE_DIR = /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include Google_tests/lib/googlemock/CMakeFiles/gmock.dir/depend.make
@@ -59,16 +59,16 @@ include Google_tests/lib/googlemock/CMakeFiles/gmock.dir/flags.make
 
 Google_tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: Google_tests/lib/googlemock/CMakeFiles/gmock.dir/flags.make
 Google_tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: ../Google_tests/lib/googlemock/src/gmock-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Google_tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
-	cd /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/Google_tests/lib/googlemock && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/Google_tests/lib/googlemock/src/gmock-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Google_tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+	cd /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/Google_tests/lib/googlemock && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Google_tests/lib/googlemock/src/gmock-all.cc
 
 Google_tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"
-	cd /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/Google_tests/lib/googlemock && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/Google_tests/lib/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/Google_tests/lib/googlemock && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Google_tests/lib/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
 
 Google_tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
-	cd /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/Google_tests/lib/googlemock && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/Google_tests/lib/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/Google_tests/lib/googlemock && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Google_tests/lib/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
 
 # Object files for target gmock
 gmock_OBJECTS = \
@@ -80,9 +80,9 @@ gmock_EXTERNAL_OBJECTS =
 lib/libgmockd.a: Google_tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
 lib/libgmockd.a: Google_tests/lib/googlemock/CMakeFiles/gmock.dir/build.make
 lib/libgmockd.a: Google_tests/lib/googlemock/CMakeFiles/gmock.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgmockd.a"
-	cd /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/Google_tests/lib/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
-	cd /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/Google_tests/lib/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgmockd.a"
+	cd /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/Google_tests/lib/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
+	cd /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/Google_tests/lib/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Google_tests/lib/googlemock/CMakeFiles/gmock.dir/build: lib/libgmockd.a
@@ -90,10 +90,10 @@ Google_tests/lib/googlemock/CMakeFiles/gmock.dir/build: lib/libgmockd.a
 .PHONY : Google_tests/lib/googlemock/CMakeFiles/gmock.dir/build
 
 Google_tests/lib/googlemock/CMakeFiles/gmock.dir/clean:
-	cd /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/Google_tests/lib/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
+	cd /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/Google_tests/lib/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
 .PHONY : Google_tests/lib/googlemock/CMakeFiles/gmock.dir/clean
 
 Google_tests/lib/googlemock/CMakeFiles/gmock.dir/depend:
-	cd /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/Google_tests/lib/googlemock /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/Google_tests/lib/googlemock /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/Google_tests/lib/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Google_tests/lib/googlemock /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/Google_tests/lib/googlemock /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/Google_tests/lib/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Google_tests/lib/googlemock/CMakeFiles/gmock.dir/depend
 

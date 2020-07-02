@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness
+CMAKE_SOURCE_DIR = /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -248,6 +248,33 @@ Game.cpp.s:
 	$(MAKE) -f CMakeFiles/the_castle_of_darkness.dir/build.make CMakeFiles/the_castle_of_darkness.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
+Player.o: Player.cpp.o
+
+.PHONY : Player.o
+
+# target to build an object file
+Player.cpp.o:
+	$(MAKE) -f CMakeFiles/the_castle_of_darkness.dir/build.make CMakeFiles/the_castle_of_darkness.dir/Player.cpp.o
+.PHONY : Player.cpp.o
+
+Player.i: Player.cpp.i
+
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) -f CMakeFiles/the_castle_of_darkness.dir/build.make CMakeFiles/the_castle_of_darkness.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) -f CMakeFiles/the_castle_of_darkness.dir/build.make CMakeFiles/the_castle_of_darkness.dir/Player.cpp.s
+.PHONY : Player.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -295,6 +322,9 @@ help:
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
+	@echo "... Player.o"
+	@echo "... Player.i"
+	@echo "... Player.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

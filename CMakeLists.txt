@@ -3,7 +3,7 @@ project(the_castle_of_darkness)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp Game.cpp Game.h)
+set(SOURCE_FILES main.cpp Game.cpp Game.h Player.cpp Player.h)
 add_executable(the_castle_of_darkness ${SOURCE_FILES})
 include_directories(/usr/local/include)
 

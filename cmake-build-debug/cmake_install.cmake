@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness
+# Install script for directory: /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/Google_tests/cmake_install.cmake")
+  include("/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/Google_tests/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

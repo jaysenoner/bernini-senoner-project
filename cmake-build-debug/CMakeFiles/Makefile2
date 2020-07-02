@@ -44,10 +44,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness
+CMAKE_SOURCE_DIR = /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -76,14 +76,14 @@ preinstall: Google_tests/preinstall
 CMakeFiles/the_castle_of_darkness.dir/all:
 	$(MAKE) -f CMakeFiles/the_castle_of_darkness.dir/build.make CMakeFiles/the_castle_of_darkness.dir/depend
 	$(MAKE) -f CMakeFiles/the_castle_of_darkness.dir/build.make CMakeFiles/the_castle_of_darkness.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles --progress-num=9,10,11 "Built target the_castle_of_darkness"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles --progress-num=9,10,11,12 "Built target the_castle_of_darkness"
 .PHONY : CMakeFiles/the_castle_of_darkness.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/the_castle_of_darkness.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/the_castle_of_darkness.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/the_castle_of_darkness.dir/rule
 
 # Convenience name for target.
@@ -161,14 +161,14 @@ Google_tests/lib/googlemock/preinstall: Google_tests/lib/googletest/preinstall
 Google_tests/lib/googlemock/CMakeFiles/gmock.dir/all: Google_tests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f Google_tests/lib/googlemock/CMakeFiles/gmock.dir/build.make Google_tests/lib/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f Google_tests/lib/googlemock/CMakeFiles/gmock.dir/build.make Google_tests/lib/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target gmock"
 .PHONY : Google_tests/lib/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 Google_tests/lib/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 Google_tests/lib/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles 0
 .PHONY : Google_tests/lib/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -189,14 +189,14 @@ Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/all: Google_tests/lib/goog
 Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/all: Google_tests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/build.make Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/build.make Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target gmock_main"
 .PHONY : Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles 0
 .PHONY : Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -236,14 +236,14 @@ Google_tests/lib/googletest/preinstall:
 Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/all: Google_tests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target gtest_main"
 .PHONY : Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles 0
 .PHONY : Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -263,14 +263,14 @@ Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/clean:
 Google_tests/lib/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f Google_tests/lib/googletest/CMakeFiles/gtest.dir/build.make Google_tests/lib/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f Google_tests/lib/googletest/CMakeFiles/gtest.dir/build.make Google_tests/lib/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target gtest"
 .PHONY : Google_tests/lib/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 Google_tests/lib/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 Google_tests/lib/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/CMakeFiles 0
 .PHONY : Google_tests/lib/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.

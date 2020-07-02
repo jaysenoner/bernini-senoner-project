@@ -1,12 +1,9 @@
-//
-// Created by Jay Senoner on 23/06/2020.
-//
 
 #include "Game.h"
 
 //Constructors and Destructors
 Game::~Game() {
-
+    delete window;
 }
 
 Game::Game() {

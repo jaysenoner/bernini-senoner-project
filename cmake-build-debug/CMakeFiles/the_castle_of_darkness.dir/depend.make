@@ -4,6 +4,10 @@
 CMakeFiles/the_castle_of_darkness.dir/Game.cpp.o: ../Game.cpp
 CMakeFiles/the_castle_of_darkness.dir/Game.cpp.o: ../Game.h
 
+CMakeFiles/the_castle_of_darkness.dir/Player.cpp.o: ../Player.cpp
+CMakeFiles/the_castle_of_darkness.dir/Player.cpp.o: ../Player.h
+
 CMakeFiles/the_castle_of_darkness.dir/main.cpp.o: ../Game.h
+CMakeFiles/the_castle_of_darkness.dir/main.cpp.o: ../Player.h
 CMakeFiles/the_castle_of_darkness.dir/main.cpp.o: ../main.cpp
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/Google_tests
+# Install script for directory: /Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Google_tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/jaysenoner/Desktop/Progetti_clion/the_castle_of_darkness/cmake-build-debug/Google_tests/lib/cmake_install.cmake")
+  include("/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/cmake-build-debug/Google_tests/lib/cmake_install.cmake")
 endif()
 
