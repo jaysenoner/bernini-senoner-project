@@ -275,6 +275,33 @@ Graph.cpp.s:
 	$(MAKE) -f CMakeFiles/the_castle_of_darkness.dir/build.make CMakeFiles/the_castle_of_darkness.dir/Graph.cpp.s
 .PHONY : Graph.cpp.s
 
+Inventory.o: Inventory.cpp.o
+
+.PHONY : Inventory.o
+
+# target to build an object file
+Inventory.cpp.o:
+	$(MAKE) -f CMakeFiles/the_castle_of_darkness.dir/build.make CMakeFiles/the_castle_of_darkness.dir/Inventory.cpp.o
+.PHONY : Inventory.cpp.o
+
+Inventory.i: Inventory.cpp.i
+
+.PHONY : Inventory.i
+
+# target to preprocess a source file
+Inventory.cpp.i:
+	$(MAKE) -f CMakeFiles/the_castle_of_darkness.dir/build.make CMakeFiles/the_castle_of_darkness.dir/Inventory.cpp.i
+.PHONY : Inventory.cpp.i
+
+Inventory.s: Inventory.cpp.s
+
+.PHONY : Inventory.s
+
+# target to generate assembly for a file
+Inventory.cpp.s:
+	$(MAKE) -f CMakeFiles/the_castle_of_darkness.dir/build.make CMakeFiles/the_castle_of_darkness.dir/Inventory.cpp.s
+.PHONY : Inventory.cpp.s
+
 Player.o: Player.cpp.o
 
 .PHONY : Player.o
@@ -352,6 +379,9 @@ help:
 	@echo "... Graph.o"
 	@echo "... Graph.i"
 	@echo "... Graph.s"
+	@echo "... Inventory.o"
+	@echo "... Inventory.i"
+	@echo "... Inventory.s"
 	@echo "... Player.o"
 	@echo "... Player.i"
 	@echo "... Player.s"

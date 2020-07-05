@@ -338,6 +338,12 @@
 		<Unit filename="/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Graph.h">
 			<Option target="the_castle_of_darkness"/>
 		</Unit>
+		<Unit filename="/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Inventory.cpp">
+			<Option target="the_castle_of_darkness"/>
+		</Unit>
+		<Unit filename="/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Inventory.h">
+			<Option target="the_castle_of_darkness"/>
+		</Unit>
 		<Unit filename="/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Player.cpp">
 			<Option target="the_castle_of_darkness"/>
 		</Unit>
