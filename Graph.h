@@ -5,7 +5,7 @@
 
 class Graph {
 private:
-    int numOfNodes = 0;
+    int numOfNodes;
 
 };
 
