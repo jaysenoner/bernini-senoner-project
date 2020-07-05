@@ -3,6 +3,7 @@
 #define THE_CASTLE_OF_DARKNESS_GAME_H
 
 #include <SFML/Graphics.hpp>
+#include "Player.h"
 
 class Game {
 
@@ -11,6 +12,7 @@ private:
     sf::RenderWindow * window;
     sf::Event eventListener;
     sf::VideoMode videoMode;
+    Player player;
 
     //Private functions
 private:

@@ -332,6 +332,12 @@
 		<Unit filename="/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Google_tests/lib/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
+		<Unit filename="/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Graph.cpp">
+			<Option target="the_castle_of_darkness"/>
+		</Unit>
+		<Unit filename="/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Graph.h">
+			<Option target="the_castle_of_darkness"/>
+		</Unit>
 		<Unit filename="/Users/jaysenoner/Desktop/Progetti_clion/bernini-senoner-project/Player.cpp">
 			<Option target="the_castle_of_darkness"/>
 		</Unit>

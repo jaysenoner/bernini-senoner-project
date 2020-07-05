@@ -248,6 +248,33 @@ Game.cpp.s:
 	$(MAKE) -f CMakeFiles/the_castle_of_darkness.dir/build.make CMakeFiles/the_castle_of_darkness.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
+Graph.o: Graph.cpp.o
+
+.PHONY : Graph.o
+
+# target to build an object file
+Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/the_castle_of_darkness.dir/build.make CMakeFiles/the_castle_of_darkness.dir/Graph.cpp.o
+.PHONY : Graph.cpp.o
+
+Graph.i: Graph.cpp.i
+
+.PHONY : Graph.i
+
+# target to preprocess a source file
+Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/the_castle_of_darkness.dir/build.make CMakeFiles/the_castle_of_darkness.dir/Graph.cpp.i
+.PHONY : Graph.cpp.i
+
+Graph.s: Graph.cpp.s
+
+.PHONY : Graph.s
+
+# target to generate assembly for a file
+Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/the_castle_of_darkness.dir/build.make CMakeFiles/the_castle_of_darkness.dir/Graph.cpp.s
+.PHONY : Graph.cpp.s
+
 Player.o: Player.cpp.o
 
 .PHONY : Player.o
@@ -322,6 +349,9 @@ help:
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
+	@echo "... Graph.o"
+	@echo "... Graph.i"
+	@echo "... Graph.s"
 	@echo "... Player.o"
 	@echo "... Player.i"
 	@echo "... Player.s"
