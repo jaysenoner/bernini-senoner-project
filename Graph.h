@@ -4,6 +4,8 @@
 
 
 class Graph {
+private:
+    int numOfNodes;
 
 };
 
